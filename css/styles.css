@@ -40,6 +40,9 @@ body {
   color: #434455;
   text-decoration: none;
 }
+.list {
+  list-style: none;
+}
 /* Main */
 
 /* 1 section */
