@@ -7,7 +7,7 @@ body {
   --bluecolor: #4d5ae5;
 }
 /* Header */
-.link {
+.logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -16,6 +16,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+.link {
   text-decoration: none;
 }
 .dark-logo {
@@ -29,6 +31,10 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
+}
+.header-links:hover,
+.header-links:focus {
+  color: #404bbf;
 }
 .header-contacts {
   font-family: "Roboto";
