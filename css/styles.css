@@ -5,6 +5,7 @@ body {
 }
 :root {
   --bluecolor: #4d5ae5;
+  --slatecolor: #434455;
 }
 /* Header */
 .logo {
@@ -41,10 +42,17 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slatecolor);
   text-decoration: none;
+}
+.header-contacts:hover,
+.header-contacts:focus {
+  color: #404bbf;
+}
+.adress-list {
+  font-style: normal;
 }
 .list {
   list-style: none;
