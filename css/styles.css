@@ -6,6 +6,7 @@ body {
 :root {
   --bluecolor: #4d5ae5;
   --slatecolor: #434455;
+  --whitecolor: #f4f4f4;
 }
 /* Header */
 .logo {
@@ -168,60 +169,22 @@ body {
 }
 
 /* Filters */
-.filter-button-all {
-  font-family: "Roboto";
+.filter-button {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.04em;
+  color: var(--bluecolor);
+  background: var(--whitecolor);
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
   color: #ffffff;
-  background: #404bbf;
-}
-.filter-button-web-site {
-  background: #f4f4fd;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-}
-.filter-button-app {
-  background: #f4f4fd;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-}
-.filter-button-design {
-  background: #f4f4fd;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-}
-.filter-button-marketing {
-  background: #f4f4fd;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
+  background-color: #404bbf;
 }
 .project-cards-titles {
   font-family: "Roboto";
