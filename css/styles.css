@@ -128,7 +128,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -145,6 +145,14 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.team-cards-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.team-cards-item {
+  background-color: #ffffff;
 }
 /* Footer */
 .light-logo {
